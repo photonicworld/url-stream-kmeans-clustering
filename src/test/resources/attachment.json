@@ -1,0 +1,15 @@
+{
+  "type": "AttachmentFeed",
+  "uuid": "fd200769-471e-4219-9005-5b739d9d294b",
+  "host": "localhost",
+  "timestamp": "2017-05-19T05:49:11.445Z",
+  "data": {
+    "action": "add",
+    "sourceMetadata": "",
+    "id": "c42b4e52ca18d140fae067009af5054e888aa6c5c836894cc8bc98b828bf5070",
+    "classification": [
+      "malware"
+    ],
+    "source": "sandbox"
+  }
+}

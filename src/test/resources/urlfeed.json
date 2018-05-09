@@ -1,0 +1,16 @@
+{
+  "type": "UrlFeed",
+  "uuid": "f4f5477a-fcbe-4ccf-b0e6-13aa40b5d3c0",
+  "host": "localhost",
+  "timestamp": "2017-05-18T12:49:11.475Z",
+  "data": {
+    "source": "sandbox",
+    "sourceMetadata": null,
+    "action": "add",
+    "classification": [
+      "malware"
+    ],
+    "completeUrl": "http://macgyver.co/deron",
+    "url": "http://macgyver.co/deron"
+  }
+}

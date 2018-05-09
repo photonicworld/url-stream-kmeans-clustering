@@ -1,0 +1,114 @@
+{
+  "type": "JoinedMessageUrlThreat",
+  "uuid": "35aade80-4dfe-4a06-a288-2fbad77ad455",
+  "host": "localhost",
+  "timestamp": "2017-05-19T10:13:48.267Z",
+  "data": {
+    "events": [
+      {
+        "type": "UrlFeed",
+        "id": "a7d5c58c-3c79-11e7-976d-c7c4e84d712d",
+        "event": {
+          "type": "UrlFeed",
+          "uuid": "a7d5c58c-3c79-11e7-976d-c7c4e84d712d",
+          "host": "localhost",
+          "timestamp": "2017-05-19T09:58:06.000Z",
+          "data": {
+            "source": "sandbox",
+            "sourceMetadata": "",
+            "url": "www.embluemail.com",
+            "mtsId": 43065182,
+            "action": "add",
+            "hostname": "www.embluemail.com",
+            "classification": [
+              "phish"
+            ]
+          }
+        }
+      },
+      {
+        "type": "Message",
+        "id": "some-id",
+        "event": {
+          "type": "Message",
+          "uuid": "some-id",
+          "host": "localhost",
+          "timestamp": "2017-05-11T21:06:05.000Z",
+          "data": {
+            "badUrls": [
+              "http://bad-guy.com"
+            ],
+            "hashedFromAddress": [
+              "6dc772dd92947b8ba09afba8d6fb3eef@test.com.ar"
+            ],
+            "hashedRecipients": [
+              "1b4e0aebb407ca120ba17d5435f71035@test.com"
+            ],
+            "hashedReplyTo": [
+              "6dc772dd92947b8ba09afba8d6fb3eef@test.com.ar"
+            ],
+            "messageParts": [
+              {
+                "archive": false,
+                "cExtension": "txt",
+                "charset": "utf-8",
+                "detectedCharset": "utf-8",
+                "disposition": "inline",
+                "extension": "",
+                "file": "",
+                "filename": "text.txt",
+                "md5": "f855ce4beb49dc3a969beebe12dd79a8",
+                "mime": "text/plain",
+                "oExtension": "txt",
+                "oFilename": "text.txt",
+                "oMime": "text/plain",
+                "partId": "0",
+                "sandboxStatus": "UNSUPPORTED_TYPE",
+                "sha256": "095b90d94047ebce3a1c06a67e42b3c436f6368f1411cd54762fba64f91a9471",
+                "size": 395
+              },
+              {
+                "archive": false,
+                "cExtension": "html",
+                "charset": "utf-8",
+                "detectedCharset": "utf-8",
+                "disposition": "inline",
+                "extension": "",
+                "file": "",
+                "filename": "text.html",
+                "md5": "bbf24b96fdff7d3ca35b815d56b66f56",
+                "mime": "text/html",
+                "oExtension": "html",
+                "oFilename": "text.html",
+                "oMime": "text/html",
+                "partId": "0",
+                "sandboxStatus": "UNSUPPORTED_TYPE",
+                "sha256": "1718e8da843e36c6a89a5b222cd7c4992da7f1ffad31f23d0cf9310df9853596",
+                "size": 10430
+              },
+              {
+                "archive": false,
+                "cExtension": "txt",
+                "detectedCharset": "us-ascii",
+                "disposition": "inline",
+                "extension": "",
+                "file": "",
+                "filename": "text.txt",
+                "md5": "b1240bc0a39ddd03ae0a316fbfc8389a",
+                "mime": "text/plain",
+                "oExtension": "txt",
+                "oFilename": "text.txt",
+                "oMime": "text/plain",
+                "partId": "0",
+                "sandboxStatus": "UNSUPPORTED_TYPE",
+                "sha256": "3110153fb9edcadc4eada21f078adb4089cd84f21c3d8cd085c907eb0c327231",
+                "size": 648
+              }
+            ],
+            "messageSize": 18946
+          }
+        }
+      }
+    ]
+  }
+}
